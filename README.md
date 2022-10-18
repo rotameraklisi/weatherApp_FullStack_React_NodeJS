@@ -6,3 +6,5 @@
 
 *npm run dev
 
+*Express,NodeJs, React.js, Postgre
+
