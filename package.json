@@ -1,0 +1,36 @@
+{
+  "name": "weatherapp_fullstack",
+  "version": "1.0.0",
+  "description": "Full Stack Weather App with React",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix client",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotameraklisi/WeatherApp_Full_Stack.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "rotaMeraklisi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotameraklisi/WeatherApp_Full_Stack/issues"
+  },
+  "homepage": "https://github.com/rotameraklisi/WeatherApp_Full_Stack#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "concurrently": "^7.4.0",
+    "cookie-parser": "^1.4.6",
+    "create-react-app": "^5.0.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "reactstrap": "^9.1.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
