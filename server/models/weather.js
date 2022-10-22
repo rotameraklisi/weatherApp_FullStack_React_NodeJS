@@ -1,6 +1,6 @@
 const request = require('request-promise');
 
-const WEATHER_API_KEY = 'afbde510311046ae22d361c2eedef676';
+const WEATHER_API_KEY = 'MY_OWN_API_KEY';
 
 
 class Weather {
